@@ -1,0 +1,77 @@
+
+html {
+    background: linear-gradient(top, white 0%, #facd8a 100%);;
+    width: available;
+}
+body {
+    font-size: 87.5%;
+    font-family: Arial, sans-serif;
+    
+    width: available;
+    margin: 15px auto;
+    padding: 15px 25px;
+    border: 2px solid black;}
+@media only screen and (max-width: 400px){
+    body {
+    font-size: 60%;
+    font-family: Arial, sans-serif;
+    
+    width: available;
+    height: available;
+    margin: 7px auto;
+    padding: 12px 20px;
+    border: 2px solid black;}
+    html {
+    background: linear-gradient(top, white 0%, #facd8a 100%);;
+    width: available;}
+    table{
+    width: available;
+    max-width: 90%;
+    font-size: 60%
+}
+   input[type="submit"]{
+    color:white;
+  padding: 50% 80%;
+    text-align: center;
+  display: inline-block;
+  margin: 40% 20%;
+  cursor: grab;
+  border-radius: 20%;
+   background-color: green;
+    border-radius: 10%;
+     width: auto;
+    height: auto;
+    font-size: 60%
+}
+   input[type="submit"]:hover{
+ color: blue;
+} 
+
+}
+
+
+
+
+a { font-weight: bold; }
+a:link { color: green; }
+a:visited { color: green; }
+input[type="submit"]{
+    color:white;
+  padding: 2px 8px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 2px;
+   background-color: green;
+    border-radius: 10px;
+}
+a.current { color: #ef9c00; }
+input[type="submit"]:hover{
+ color: blue;
+}
+table{
+    width: available;
+    max-width: 80%;
+}
+a:hover, a:focus { color: blue; }
